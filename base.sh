@@ -6,4 +6,4 @@ archive=$(ls | grep 'tar')
 mkdir -p ~/.steam/root/compatibilitytools.d/Proton-GE-Latest
 tar -xvf $archive  --overwrite-dir --recursive-unlink -C ~/.steam/root/compatibilitytools.d/Proton-GE-Latest
 rm /tmp/Proton-GE-Latest
-
+notify-send "proton-GE-Latest install finished"
